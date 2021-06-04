@@ -1,0 +1,67 @@
+body{
+  padding-top:45px;
+}
+.MuiButton-text{
+  color:white;
+}
+/*main background color*/
+main{
+  background: linear-gradient(225deg, #5d6cbb, #6e80df);;
+  height: 100vh
+}
+/*Styling for the speech input field on the Home page*/
+.firstPar{
+  height:30vh;
+  width: 80vw;
+  box-sizing: border-box;
+    padding: 1em;
+    overflow-y: scroll;
+    border-radius: 64px;
+    background: linear-gradient(225deg, #5d6cbb, #6e80df);
+    box-shadow:  -23px 23px 23px #3d477b,
+                 23px -23px 23px #91a9ff;
+}
+/*Styling for the Translated output field on the Home page*/
+.secondPar{
+  margin: auto;
+  height:30vh;
+  width:80vw;
+  box-sizing: border-box;
+    padding: 1em;
+    overflow-y: scroll;
+    border-radius: 64px;
+    background: linear-gradient(225deg, #5d6cbb, #6e80df);
+    box-shadow:  -23px 23px 23px #3d477b,
+                 23px -23px 23px #91a9ff;
+}
+/*Styling for the mic/talk button*/
+#mic{
+  position: fixed;
+  right:0;
+  bottom:3em;
+}
+/*Styling for the language select dropdown menu*/
+#dropdown-menu-align-right{
+  background-color: '#3f50b5';
+}
+/*Styling for the header on the input log page*/
+.log_head{
+  color:azure;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px black;
+}
+/*Styling for the input log output field on the input log page*/
+.input_log{
+  height:70vh;
+  width: 97vw;
+  box-sizing: border-box;
+    padding: 1em;
+    overflow-y: scroll;
+    border-radius: 64px;
+    background: linear-gradient(225deg, #5d6cbb, #6e80df);
+    box-shadow:  -23px 23px 23px #3d477b,
+                 23px -23px 23px #91a9ff;
+}
